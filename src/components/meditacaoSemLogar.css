@@ -1,0 +1,92 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1299px;
+    height: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #000000;
+    overflow: hidden;
+  }
+  .pic {
+    position: absolute;
+    width: 175px;
+    height: 800px;
+    top: -1px;
+    left: -1px;
+    /* background: url(../assets/images/f61f8326-139a-4eda-ac2c-55fad4cb4fc6.png) */
+      ;
+    background-size: cover;
+    z-index: 3;
+  }
+  .section {
+    position: absolute;
+    width: 500px;
+    height: 308px;
+    top: 147px;
+    left: 452px;
+    z-index: 2;
+  }
+  .img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 0;
+    left: 0;
+    /* background: url(../assets/images/f73d4ef9-c33b-4be2-84f5-4b1f5c2beb43.png) */
+      ;
+    background-size: cover;
+    border-radius: 50%;
+  }
+  .img-2 {
+    position: absolute;
+    width: 410px;
+    height: 410px;
+    top: 47px;
+    left: 45px;
+    /* background: url(../assets/images/b24b66d9-e9b3-42bf-8654-2dda5579840a.png) */
+      ;
+    background-size: cover;
+    z-index: 1;
+    border-radius: 50%;
+  }
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 431px;
+    height: 112px;
+    top: 196px;
+    left: 34px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+    z-index: 2;
+  }
+  

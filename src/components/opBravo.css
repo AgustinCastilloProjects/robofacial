@@ -1,0 +1,126 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1299px;
+    height: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #000000;
+    overflow: hidden;
+  }
+  .img {
+    position: absolute;
+    width: 175px;
+    height: 800px;
+    top: -1px;
+    left: -1px;
+    /* background: url(../assets/images/6c9d8467-0b94-4758-8575-38f0b0dd085c.png) */
+      ;
+    background-size: cover;
+    z-index: 10;
+  }
+  .section {
+    position: absolute;
+    width: 911px;
+    height: 404px;
+    top: 197px;
+    left: 230px;
+    background: #ffffff;
+    z-index: 1;
+  }
+  .pic {
+    position: absolute;
+    width: 166.458px;
+    height: 248px;
+    top: 71px;
+    left: 114px;
+    /* background: url(../assets/images/a04837c5-7cf9-48a2-92b8-b392a1d282f1.png) */
+      ;
+    background-size: cover;
+    z-index: 8;
+  }
+  .pic-2 {
+    position: absolute;
+    width: 23.23%;
+    height: 54.61%;
+    top: 21.04%;
+    left: 38.91%;
+    /* background: url(../assets/images/3b64504f-f6c9-4e1a-812e-1cdb27b51805.png) */
+      ;
+    background-size: 100% 100%;
+    z-index: 6;
+  }
+  .pic-3 {
+    position: absolute;
+    width: 165.458px;
+    height: 178.646px;
+    top: 106px;
+    left: 632px;
+    /* background: url(../assets/images/00ec38d3-8885-4aa4-b34b-fbdfaf1c1546.png) */
+      ;
+    background-size: cover;
+    z-index: 7;
+  }
+  .img-2 {
+    position: absolute;
+    width: 59.545px;
+    height: 136.103px;
+    top: 127px;
+    left: 838px;
+    /* background: url(../assets/images/392f2548-a472-40e7-964d-57704014a9ed.png) */
+      ;
+    background-size: cover;
+    z-index: 4;
+  }
+  .pic-4 {
+    position: absolute;
+    width: 59.317px;
+    height: 136.103px;
+    top: 127px;
+    left: 14px;
+    /* background: url(../assets/images/e0d626cb-087d-4642-87a5-3c54d58beef9.png) */
+      ;
+    background-size: cover;
+    z-index: 3;
+  }
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 135.593px;
+    height: 23.926px;
+    top: 306px;
+    left: 388px;
+    color: #000000;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  

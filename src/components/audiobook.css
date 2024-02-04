@@ -1,0 +1,109 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #000000;
+    overflow: hidden;
+  }
+  .img {
+    position: absolute;
+    width: 175px;
+    height: 800px;
+    top: -1px;
+    left: -1px;
+    /* /* background: url(../assets/images/707e46c4-ab48-48d9-83af-8b94d94ca557.png) */
+      ;
+    background-size: cover;
+  }
+  .img-2 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 55px 0 0 63px;
+    /* background: url(../assets/images/3cbfe1d5-1869-44b4-ad48-521d6fa23362.png) */
+      ;
+    background-size: cover;
+    z-index: 3;
+  }
+  .wrapper {
+    position: absolute;
+    width: 651px;
+    height: 723px;
+    top: 29px;
+    left: 355px;
+    z-index: 5;
+  }
+  .pic {
+    position: relative;
+    width: 290px;
+    height: 290px;
+    margin: 0 0 0 187px;
+    /* background: url(../assets/images/8a87452c5af203771b6496d45572313cd961af6b.png) */
+      ;
+    background-size: contain;
+    z-index: 4;
+  }
+  .pic-2 {
+    position: relative;
+    width: 270px;
+    height: 70px;
+    margin: 20px 0 0 197px;
+    /* background: url(../assets/images/0b7fc3a1-ee45-4331-adbf-64c757758641.png) */
+      ;
+    background-size: cover;
+    z-index: 5;
+    border-radius: 66px;
+  }
+  .section {
+    position: relative;
+    width: 651px;
+    height: 323px;
+    margin: 20px 0 0 0;
+    background: #e0dfdf;
+    z-index: 1;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 603px;
+    height: 75px;
+    top: 22px;
+    left: 24px;
+    color: #000000;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: center;
+    z-index: 2;
+  }
+  

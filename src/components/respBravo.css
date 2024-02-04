@@ -1,0 +1,128 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1299px;
+    height: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #000000;
+    overflow: hidden;
+  }
+  .box {
+    position: relative;
+    width: 717px;
+    height: 299px;
+    margin: 251px 0 0 281px;
+    font-size: 0px;
+    background: #ebebeb;
+    z-index: 1;
+    overflow: visible auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 432px;
+    height: 117px;
+    margin: 32px 0 0 161px;
+    color: #192931;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 44.2px;
+    text-align: center;
+    z-index: 5;
+  }
+  .group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 582.79px;
+    height: 53px;
+    margin: 18px 0 0 79px;
+    z-index: 4;
+  }
+  .box-2 {
+    flex-shrink: 0;
+    position: relative;
+    width: 180px;
+    height: 53px;
+    background: #f0f0f0;
+    border: 1px solid #007cff;
+    z-index: 4;
+    border-radius: 66px;
+  }
+  .text-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 109px;
+    height: 31px;
+    top: 15px;
+    left: 34px;
+    color: #007cff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-overflow: initial;
+    z-index: 6;
+    overflow: hidden;
+  }
+  .box-3 {
+    flex-shrink: 0;
+    position: relative;
+    width: 182.672px;
+    height: 53px;
+    background: #007cff;
+    z-index: 2;
+    border-radius: 66px;
+    box-shadow: 0 3px 12px 0 rgba(73, 57, 255, 0.18);
+  }
+  .text-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 17.52%;
+    height: 37.74%;
+    top: 30.19%;
+    left: 40.24%;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  
