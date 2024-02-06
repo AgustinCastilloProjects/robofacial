@@ -14,10 +14,12 @@ import MusicaSemLogar from './components/musicaSemLogar';
 import OpBravo from './components/opBravo';
 import RespBravo from './components/respBravo';
 import Api from './components/api/Api';
+import Emocoes from './components/api/Emocoes';
 
 function App() {
   return (
     <BrowserRouter>
+      {/* <Emocoes /> */}
       <Routes>
         <Route path='/' element={<Init />} />
         <Route path='/api' element={<Api />} />
