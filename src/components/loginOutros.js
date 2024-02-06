@@ -1,24 +1,42 @@
-import React from 'react';
-import './loginOutros.css';
+import React, { useState } from 'react';
+import './loginAluno.css';
 
 export default function LoginOutros() {
+  const [nome, setNome] = useState('');
+  const [id, setId] = useState('');
+  const [err, setErr] = useState(false);
+
+  const handleLogin = () => {
+    if(nome && id){
+      localStorage.setItem('nome', nome);
+      localStorage.setItem('CPF', id);
+      window.location.href = '/home';
+    } else {
+      setErr(true);
+    }
+  }
+
+  const handleSignup = () => {
+    window.location.href = '/cad'
+  }
+
   return (
-    <div className='logout-main-container'>
-      <div className='logout-box'>
-        <div className='logout-img'>
-          <div className='logout-wrapper' />
-          <div className='logout-section' />
-        </div>
-        <span className='logout-text'>Nome Completo</span>
-        <span className='logout-text-2'>CPF</span>
+    <div className='logal-main-container'>
+      <div className='logal-group'>
+        <div className='logal-pic'></div>
       </div>
-      <div className='logout-box-2'>
-        <span className='logout-text-3'>Login</span>
+      <div className='logal-input-wrapper'>
+        <input className='logal-input' type='text' placeholder='Nome Completo' onChange={ (e) => { setNome(e.target.value); if(nome && id) setErr(false) }}/>
+        <input className='logal-input' type='text' placeholder='CPF' onChange={ (e) => { setId(e.target.value); if(nome && id) setErr(false) }}/>
       </div>
-      <div className='logout-wrapper-2'>
-        <span className='logout-text-4'>Não tem uma conta?</span>
-        <span className='logout-text-5'>Cadastre-se</span>
+      <div className='logal-box'>
+        <span className='logal-text-3' onClick={handleLogin}>Login</span>
       </div>
+      <div className='logal-wrapper'>
+        <span className='logal-text-4'>Não tem uma conta?</span>
+        <span className='logal-text-5' onClick={handleSignup}>Cadastre-se</span>
+      </div>
+      { err && <center><span className='logal-error'>Necessário preencher ambos os campos para realizar login</span></center>}
     </div>
   );
 }

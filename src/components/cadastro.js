@@ -35,6 +35,7 @@ export default function Cadastro() {
   ];
 
   const handleCadastrar = () => {
+    localStorage.setItem('nome', nome);
     window.location.href = '/home'
   }
 

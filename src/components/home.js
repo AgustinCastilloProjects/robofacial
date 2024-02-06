@@ -16,6 +16,9 @@ export default function Home() {
         <img src={home} width={100} height={100} className='img-menu' onClick={() => window.location.href = '/home'}/>
         <img src={back} width={100} height={100} onClick={() => window.location.href = '/init'}/>
       </div>
+      <div className='rowHome'>
+        <h1>Olá {localStorage.getItem('nome')}, seja Bem-Vinde!</h1>
+      </div>
       <div className='home-btn-section'>
         <button className='btn-musica' alt='botão de música' onClick={ () => window.location.href = '/musica'}>
           <center><img src={btnMusica} width={100} height={100} className='home-btn-img'/></center>
