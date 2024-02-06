@@ -28,11 +28,11 @@ export default function Home() {
           <center><img src={btnMeditacao} width={100} height={100} className='home-btn-img'/></center>
           <span className='btn-text'>Meditação</span>
         </button>
-        <button className='btn-musica' alt='botão de desabafo' onClick={ () => window.location.href = '/desabafo'}>
+        <button className='btn-musica' alt='botão de desabafo' onClick={ () => window.location.href = '/desabafo'} disabled>
           <center><img src={btndesabafo} width={100} height={100} className='home-btn-img'/></center>
           <span className='btn-text'>Desabafe</span>
         </button>
-        <button className='btn-musica' alt='botão de audiobook' onClick={ () => window.location.href = '/ab'}>
+        <button className='btn-musica' alt='botão de audiobook' onClick={ () => window.location.href = '/ab'} disabled>
           <center><img src={btnAudiobook} width={100} height={100} className='home-btn-img'/></center>
           <span className='btn-text'>AudioBook</span>
         </button>

@@ -126,3 +126,31 @@
     z-index: 3;
   }
   
+  .rowbtns {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+  }
+
+  .btn-nao{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #007cff;
+    border-radius: 40px;
+    color: #007cff;
+    background-color: #f0f0f0;
+  }
+
+  .btn-sim{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #007cff;
+    border-radius: 40px;
+    color: white;
+    background-color: #007cff;
+  }
+
+  .btn-nao:hover,
+  .btn-sim:hover{
+    cursor: pointer;
+  }

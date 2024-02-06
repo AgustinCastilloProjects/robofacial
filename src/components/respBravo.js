@@ -8,16 +8,9 @@ export default function RespBravo() {
         <span className='rb-text'>
           Você parece nervoso, posso tentar te ajudar?
         </span>
-        <div className='rb-group'>
-          <div className='rb-box-2'>
-            <span className='rb-text-2'>
-              Não
-              <br />
-            </span>
-          </div>
-          <div className='rb-box-3'>
-            <span className='rb-text-3'>Sim</span>
-          </div>
+        <div className='rowbtns'>
+          <button type='button' className='btn-nao' onClick={() => window.location.href = '/init'}>Não</button>
+          <button type='button' className='btn-sim' onClick={ () => window.location.href = '/home'}>Sim</button>
         </div>
       </div>
     </div>
