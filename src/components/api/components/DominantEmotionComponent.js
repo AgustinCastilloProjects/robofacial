@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
-
+import { useNavigate } from "react-router-dom";
 
 const GenderComponent = () => {
   const [dominantEmotion, setDominantEmotion] = useState("");
-  
+  const navigate = useNavigate();
+
   useEffect(() => {
     bindEvents();
   }, []);
@@ -13,12 +14,21 @@ const GenderComponent = () => {
       setDominantEmotion(evt.detail.output.dominantEmotion || "") ;
     });
   }
+
+  useEffect(() => {
+    if (dominantEmotion === "Angry") {
+      setTimeout(() => {
+        navigate("/respBravo");
+      }, 3000);
+    }
+  }, [dominantEmotion, navigate]);
+
   return (
+    // <></>
     <div >
-    <p style={{fontSize:"20px"}}>DominantEmotion Component:</p>
-     <p>{dominantEmotion}</p>
+      {/* <p style={{fontSize:"20px"}}>Emoção agora:</p>
+      <p style={{color: '#000', fontSize: '30px'}}>{dominantEmotion}</p> */}
     </div>
   );
 };
-
 export default GenderComponent;
