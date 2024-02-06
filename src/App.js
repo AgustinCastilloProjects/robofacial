@@ -13,12 +13,14 @@ import MeditacaoSemLogar from './components/meditacaoSemLogar';
 import MusicaSemLogar from './components/musicaSemLogar';
 import OpBravo from './components/opBravo';
 import RespBravo from './components/respBravo';
+import Api from './components/api/Api';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Init />} />
+        <Route path='/api' element={<Api />} />
         <Route path='/ab' element={<Audiobook />} />
         <Route path='/cad' element={<Cadastro />} />
         <Route path='/desabafo' element={<Desabafo />} />
