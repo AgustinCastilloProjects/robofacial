@@ -19,7 +19,7 @@ import Emocoes from './components/api/Emocoes';
 function App() {
   return (
     <BrowserRouter>
-      {/* <Emocoes /> */}
+      { <Emocoes /> }
       <Routes>
         <Route path='/' element={<Init />} />
         <Route path='/api' element={<Api />} />
