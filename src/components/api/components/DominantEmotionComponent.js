@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const GenderComponent = () => {
   const [dominantEmotion, setDominantEmotion] = useState("");
-  
+
   useEffect(() => {
     bindEvents();
   }, []);
@@ -15,8 +15,8 @@ const GenderComponent = () => {
   }
   return (
     <div >
-    <p style={{fontSize:"20px"}}>DominantEmotion Component:</p>
-     <p>{dominantEmotion}</p>
+    <p style={{fontSize:"20px"}}>Emoção agora:</p>
+     <p style={{color: '#000', fontSize: '30px'}}>{dominantEmotion}</p>
     </div>
   );
 };
