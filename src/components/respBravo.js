@@ -10,7 +10,7 @@ export default function RespBravo() {
         </span>
         <div className='rowbtns'>
           <button type='button' className='btn-nao' onClick={() => window.location.href = '/init'}>Não</button>
-          <button type='button' className='btn-sim' onClick={ () => window.location.href = '/home'}>Sim</button>
+          <button type='button' className='btn-sim' onClick={ () => { localStorage.removeItem('nome'); window.location.href = '/home'}}>Sim</button>
         </div>
       </div>
     </div>

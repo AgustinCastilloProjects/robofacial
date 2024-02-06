@@ -24,10 +24,8 @@ const GenderComponent = () => {
   }, [dominantEmotion, navigate]);
 
   return (
-    // <></>
     <div >
-      {/* <p style={{fontSize:"20px"}}>Emoção agora:</p>
-      <p style={{color: '#000', fontSize: '30px'}}>{dominantEmotion}</p> */}
+      <p style={{fontSize:"20px"}}>Emoção agora: {dominantEmotion}</p> 
     </div>
   );
 };

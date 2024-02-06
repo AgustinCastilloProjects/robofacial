@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Init from './components/init';
 import Audiobook from './components/audiobook';
@@ -19,7 +17,6 @@ import Emocoes from './components/api/Emocoes';
 function App() {
   return (
     <BrowserRouter>
-      { <Emocoes /> }
       <Routes>
         <Route path='/' element={<Init />} />
         <Route path='/api' element={<Api />} />

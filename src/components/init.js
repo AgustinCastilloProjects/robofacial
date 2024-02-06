@@ -5,8 +5,10 @@ import Emocoes from './api/Emocoes';
 export default function Init() {
   return (
     <>
-      {/* <Emocoes /> */}
       <div className='init-main-container'>
+        <div className='emotions'>
+          <Emocoes />
+        </div>
         <span className='init-text'>Você é:</span>
         <div className='init-section'>
           <button onClick={ () => window.location.href = '/loginAluno'} className='init-btn'>
