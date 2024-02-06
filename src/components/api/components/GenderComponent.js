@@ -18,8 +18,8 @@ const GenderComponent = () => {
     <p style={{fontSize:"20px"}}>Gender Component:</p>
     <div style={{minHeight: "200px"}}>
     <p>{gender}</p>
-    {(gender.toLocaleLowerCase() === 'male') && <img alt="" src="male.png"/>}
-    {(gender.toLocaleLowerCase() === 'female') && <img alt="" src="female.png"/>}
+    {(gender.toLocaleLowerCase() === 'male') && <img alt="x" src="male.png"/>}
+    {(gender.toLocaleLowerCase() === 'female') && <img alt="x" src="female.png"/>}
     </div>
     </>
     

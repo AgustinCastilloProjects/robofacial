@@ -3,12 +3,12 @@ import './musicaSemLogar.css';
 
 export default function MusicaSemLogar() {
   return (
-    <div className='main-container'>
-      <div className='img' />
-      <div className='box'>
-        <div className='img-2' />
-        <div className='img-3' />
-        <span className='text'>
+    <div className='mus-main-container'>
+      <div className='mus-img' />
+      <div className='mus-box'>
+        <div className='mus-img-2' />
+        <div className='mus-img-3' />
+        <span className='mus-text'>
           Nome da Música
           <br />
         </span>

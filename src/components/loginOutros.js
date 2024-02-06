@@ -3,21 +3,21 @@ import './loginOutros.css';
 
 export default function LoginOutros() {
   return (
-    <div className='main-container'>
-      <div className='box'>
-        <div className='img'>
-          <div className='wrapper' />
-          <div className='section' />
+    <div className='logout-main-container'>
+      <div className='logout-box'>
+        <div className='logout-img'>
+          <div className='logout-wrapper' />
+          <div className='logout-section' />
         </div>
-        <span className='text'>Nome Completo</span>
-        <span className='text-2'>CPF</span>
+        <span className='logout-text'>Nome Completo</span>
+        <span className='logout-text-2'>CPF</span>
       </div>
-      <div className='box-2'>
-        <span className='text-3'>Login</span>
+      <div className='logout-box-2'>
+        <span className='logout-text-3'>Login</span>
       </div>
-      <div className='wrapper-2'>
-        <span className='text-4'>Não tem uma conta?</span>
-        <span className='text-5'>Cadastre-se</span>
+      <div className='logout-wrapper-2'>
+        <span className='logout-text-4'>Não tem uma conta?</span>
+        <span className='logout-text-5'>Cadastre-se</span>
       </div>
     </div>
   );

@@ -3,12 +3,12 @@ import './meditacaoSemLogar.css';
 
 export default function MeditacaoSemLogar() {
   return (
-    <div className='main-container'>
-      <div className='pic' />
-      <div className='section'>
-        <div className='img' />
-        <div className='img-2' />
-        <span className='text'>Inspire/Expire</span>
+    <div className='medit-main-container'>
+      <div className='medit-pic' />
+      <div className='medit-section'>
+        <div className='medit-img' />
+        <div className='medit-img-2' />
+        <span className='medit-text'>Inspire/Expire</span>
       </div>
     </div>
   );

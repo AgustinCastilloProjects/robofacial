@@ -5,12 +5,12 @@
       "Source Han Sans CN", sans-serif;
   }
   
-  .main-container {
+  .logout-main-container {
     overflow: hidden;
   }
   
-  .main-container,
-  .main-container * {
+  .logout-main-container,
+  .logout-main-container * {
     box-sizing: border-box;
   }
   
@@ -21,7 +21,7 @@
     outline: 0;
   }
   
-  .main-container {
+  .logout-main-container {
     position: relative;
     width: 1280px;
     height: 800px;
@@ -30,25 +30,25 @@
     border: 1px solid #000000;
     overflow: hidden;
   }
-  .box {
+  .logout-box {
     position: relative;
     width: 426px;
     height: 558px;
     margin: -125px 0 0 401px;
     z-index: 6;
   }
-  .img {
+  .logout-img {
     position: absolute;
     width: 407px;
     height: 558px;
     top: 0;
     left: 19px;
-    /* background: url(../assets/images/99740995-41e6-4595-92bf-1fa9337b9dde.png) */
+    /* background: url(.logout-.logout-/assets/images/99740995-41e6-4595-92bf-1fa9337b9dde.logout-png) */
       ;
     background-size: cover;
     z-index: 1;
   }
-  .wrapper {
+  .logout-wrapper {
     position: relative;
     width: 353px;
     height: 53px;
@@ -57,7 +57,7 @@
     z-index: 4;
     border-radius: 15px;
   }
-  .section {
+  .logout-section {
     position: relative;
     width: 353px;
     height: 53px;
@@ -66,25 +66,25 @@
     z-index: 3;
     border-radius: 15px;
   }
-  .text {
+  .logout-text {
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    width: 241.66px;
-    height: 22.165px;
+    width: 241.logout-66px;
+    height: 22.logout-165px;
     top: 454px;
     left: 0;
     color: #35618e;
     font-family: Roboto, var(--default-font-family);
     font-size: 14px;
     font-weight: 400;
-    line-height: 18.2px;
+    line-height: 18.logout-2px;
     text-align: center;
     white-space: nowrap;
     z-index: 6;
   }
-  .text-2 {
+  .logout-text-2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,12 +97,12 @@
     font-family: Roboto, var(--default-font-family);
     font-size: 14px;
     font-weight: 400;
-    line-height: 18.2px;
+    line-height: 18.logout-2px;
     text-align: center;
     white-space: nowrap;
     z-index: 5;
   }
-  .box-2 {
+  .logout-box-2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,30 +114,30 @@
     z-index: 9;
     border-radius: 10px;
   }
-  .text-3 {
+  .logout-text-3 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
     position: relative;
-    width: 247.86px;
-    height: 34.097px;
+    width: 247.logout-86px;
+    height: 34.logout-097px;
     color: #ffffff;
     font-family: Roboto, var(--default-font-family);
     font-size: 16px;
     font-weight: 700;
-    line-height: 34.097px;
+    line-height: 34.logout-097px;
     text-align: center;
     z-index: 9;
   }
-  .wrapper-2 {
+  .logout-wrapper-2 {
     position: relative;
     width: 242px;
     height: 10px;
     margin: 22px 0 0 498px;
     z-index: 12;
   }
-  .text-4 {
+  .logout-text-4 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,7 +155,7 @@
     white-space: nowrap;
     z-index: 11;
   }
-  .text-5 {
+  .logout-text-5 {
     display: flex;
     align-items: center;
     justify-content: center;

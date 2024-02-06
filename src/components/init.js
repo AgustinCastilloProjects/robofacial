@@ -3,18 +3,24 @@ import './init.css';
 
 export default function Init() {
   return (
-    <div className='main-container'>
-      <span className='text'>Você é:</span>
-      <div className='section'>
-        <div className='group'>
-          <span className='text-2'>Aluno</span>
+    <div className='init-main-container'>
+      <span className='init-text'>Você é:</span>
+      <div className='init-section'>
+        <button onClick={ () => window.location.href = '/loginAluno'} className='init-btn'>
+          <div className='init-group'>
+            <span className='init-text-2'>Aluno</span>
+          </div>
+        </button>
+        <button onClick={ () => window.location.href = '/loginOutros'} className='init-btn'>
+        <div className='init-box'>
+          <span className='init-text-3'>Professor</span>
         </div>
-        <div className='box'>
-          <span className='text-3'>Professor</span>
+        </button>
+        <button onClick={ () => window.location.href = '/loginOutros'} className='init-btn'>
+        <div className='init-box-2'>
+          <span className='init-text-4'>Servidor</span>
         </div>
-        <div className='box-2'>
-          <span className='text-4'>Servidor</span>
-        </div>
+        </button>
       </div>
     </div>
   );

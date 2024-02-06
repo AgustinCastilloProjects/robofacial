@@ -5,12 +5,12 @@
       "Source Han Sans CN", sans-serif;
   }
   
-  .main-container {
+  .logal-main-container {
     overflow: hidden;
   }
   
-  .main-container,
-  .main-container * {
+  .logal-main-container,
+  .logal-main-container * {
     box-sizing: border-box;
   }
   
@@ -21,7 +21,7 @@
     outline: 0;
   }
   
-  .main-container {
+  .logal-main-container {
     position: relative;
     width: 1280px;
     height: 800px;
@@ -30,25 +30,25 @@
     border: 1px solid #000000;
     overflow: hidden;
   }
-  .group {
+  .logal-group {
     position: relative;
     width: 420px;
-    height: 558px;
+    height: 400px;
     margin: -64px 0 0 405px;
     z-index: 6;
   }
-  .pic {
+  .logal-pic {
     position: absolute;
     width: 407px;
-    height: 558px;
+    height: 400px;
     top: 0;
     left: 13px;
-    /* background: url(../assets/images/97ef95b6-8f06-4f66-86f1-8454e33e0a19.png) */
+    background: url(../assets/Login.jpg)
       ;
     background-size: cover;
     z-index: 1;
   }
-  .section {
+  .logal-section {
     position: relative;
     width: 353px;
     height: 53px;
@@ -57,7 +57,7 @@
     z-index: 4;
     border-radius: 15px;
   }
-  .section-2 {
+  .logal-section-2 {
     position: relative;
     width: 353px;
     height: 53px;
@@ -66,25 +66,25 @@
     z-index: 3;
     border-radius: 15px;
   }
-  .text {
+  .logal-text {
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    width: 241.66px;
-    height: 22.165px;
+    width: 241.logal-66px;
+    height: 22.logal-165px;
     top: 454px;
     left: 0;
     color: #35618e;
     font-family: Roboto, var(--default-font-family);
     font-size: 14px;
     font-weight: 400;
-    line-height: 18.2px;
+    line-height: 18.logal-2px;
     text-align: center;
     white-space: nowrap;
     z-index: 6;
   }
-  .text-2 {
+  .logal-text-2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,12 +97,12 @@
     font-family: Roboto, var(--default-font-family);
     font-size: 14px;
     font-weight: 400;
-    line-height: 18.2px;
+    line-height: 18.logal-2px;
     text-align: center;
     white-space: nowrap;
     z-index: 5;
   }
-  .box {
+  .logal-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,30 +114,30 @@
     z-index: 9;
     border-radius: 10px;
   }
-  .text-3 {
+  .logal-text-3 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
     position: relative;
-    width: 247.86px;
-    height: 34.097px;
+    width: 247.logal-86px;
+    height: 34.logal-097px;
     color: #ffffff;
     font-family: Roboto, var(--default-font-family);
     font-size: 16px;
     font-weight: 700;
-    line-height: 34.097px;
+    line-height: 34.logal-097px;
     text-align: center;
     z-index: 9;
   }
-  .wrapper {
+  .logal-wrapper {
     position: relative;
     width: 222px;
     height: 10px;
     margin: 21px 0 0 518px;
     z-index: 12;
   }
-  .text-4 {
+  .logal-text-4 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,7 +155,7 @@
     white-space: nowrap;
     z-index: 11;
   }
-  .text-5 {
+  .logal-text-5 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,3 +175,33 @@
     z-index: 12;
   }
   
+  .logal-input{
+    padding: 20px;
+    border: 1px solid #CEE3F8;
+    border-radius: 15px;
+    background-color: #CEE3F8;
+    color: #35618E;
+    width: 353px;
+    height: 53px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .logal-input-wrapper{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .logal-error{
+    margin: 0 auto;
+    color: red;
+  }
+
+  .logal-text-3:hover {
+    cursor: pointer;
+  }
+
+  .logal-text-5:hover{
+    cursor: pointer;
+  }

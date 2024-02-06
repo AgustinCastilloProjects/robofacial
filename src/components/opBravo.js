@@ -3,15 +3,15 @@ import './opBravo.css';
 
 export default function OpBravo() {
   return (
-    <div className='main-container'>
-      <div className='img' />
-      <div className='section'>
-        <div className='pic' />
-        <div className='pic-2' />
-        <div className='pic-3' />
-        <div className='img-2' />
-        <div className='pic-4' />
-        <span className='text'>Música</span>
+    <div className='ob-main-container'>
+      <div className='ob-img' />
+      <div className='ob-section'>
+        <div className='ob-pic' />
+        <div className='ob-pic-2' />
+        <div className='ob-pic-3' />
+        <div className='ob-img-2' />
+        <div className='ob-pic-4' />
+        <span className='ob-text'>Música</span>
       </div>
     </div>
   );
