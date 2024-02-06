@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './loginAluno.css';
+import back from '../assets/voltar.png';
 
 export default function LoginAluno() {
   const [nome, setNome] = useState('');
@@ -28,6 +29,9 @@ export default function LoginAluno() {
 
   return (
     <div className='logal-main-container'>
+      <div className='home-box'>
+        <img src={back} width={100} height={100} alt="Voltar ao Início" onClick={() => window.location.href = '/init'}/>
+      </div>
       <div className='logal-group'>
         <div className='logal-pic'></div>
       </div>

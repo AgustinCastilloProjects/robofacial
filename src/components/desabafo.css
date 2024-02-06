@@ -143,3 +143,12 @@
     margin-left: 30px;
     background-color: #f0f0f0;
   }
+
+  .btnenviar{
+    background-color: #007cff;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }

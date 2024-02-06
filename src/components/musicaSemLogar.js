@@ -9,7 +9,6 @@ export default function MusicaSemLogar() {
   return (
     <div className='mus-main-container'>
       <div className='home-box'>
-        <img src={settings} width={100} height={100} className='img-menu first' onClick={() => window.location.href = '/init'} disabled/>
         <img src={home} width={100} height={100} className='img-menu' alt='Ir Para Home' onClick={() => window.location.href = '/home'}/>
         <img src={back} width={100} height={100} alt="Voltar ao Início" onClick={() => {localStorage.removeItem('nome'); window.location.href = '/init'}}/>
         <p className='logoutlabel'>Logout</p>

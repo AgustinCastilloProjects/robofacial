@@ -9,7 +9,6 @@ export default function Desabafo() {
   return (
     <div className='main-container'>
       <div className='home-box'>
-        <img src={settings} width={100} height={100} className='img-menu first' onClick={() => window.location.href = '/init'} disabled/>
         <img src={home} width={100} height={100} className='img-menu' alt='Ir Para Home' onClick={() => window.location.href = '/home'}/>
         <img src={back} width={100} height={100} alt="Voltar ao Início" onClick={() => {localStorage.removeItem('nome'); window.location.href = '/init'}}/>
         <p className='logoutlabel'>Logout</p>
@@ -22,6 +21,9 @@ export default function Desabafo() {
       </div>
       <div className='rowdes'>
         <textarea rows={10} className='tades' cols={100}/>
+      </div>
+      <div className='rowdes'>
+        <button type='button' className='btnenviar' onClick={() => window.location.href = '/home'}>Enviar</button>
       </div>
       
     </div>
